@@ -49,19 +49,20 @@ export default function Home() {
 
       <header className="hero">
         <div className="container">
-          <div>
-            <div className="eyebrow">Plateforme de questionnaires · Site fictif</div>
-            <h1>Créez, partagez et analysez vos questionnaires</h1>
-            <p className="lead">
-              Quizzo vous aide à concevoir des quiz en quelques minutes et à suivre les résultats en temps réel.
-            </p>
-            <div className="hero-actions">
-              <a className="btn btn-primary" href="#commencer">Créer un questionnaire</a>
-              <a className="btn btn-ghost" href="#fonctionnement">Voir comment ça marche</a>
-            </div>
-            <span className="pill">DevOps 2 · TP1</span>
-          </div>
-          <DevOpsLoop className="loop" />
+        <div>
+        <div className="eyebrow">Quizzo · Quiz en ligne, simples et rapides</div>
+        <h1>Votre questionnaire prêt en 5 minutes</h1>
+        <p className="lead">
+                      Choisissez vos questions, partagez un lien, et découvrez les réponses de votre
+                      audience au fur et à mesure qu'elles arrivent. Aucun outil à installer.
+        </p>
+        <div className="hero-actions">
+        <a className="btn btn-primary" href="#commencer">Créer un questionnaire</a>
+        <a className="btn btn-ghost" href="#fonctionnement">Voir comment ça marche</a>
+        </div>
+        <span className="pill">DevOps 2 · TP1</span>
+        </div>
+        <DevOpsLoop className="loop" />
         </div>
       </header>
 
