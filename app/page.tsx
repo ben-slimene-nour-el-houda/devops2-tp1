@@ -57,6 +57,7 @@ export default function Home() {
                       audience au fur et à mesure qu'elles arrivent. Aucun outil à installer.
         </p>
         <div className="hero-actions">
+          
         <a className="btn btn-primary" href="#commencer">Créer un questionnaire</a>
         <a className="btn btn-ghost" href="#fonctionnement">Voir comment ça marche</a>
         </div>
@@ -139,7 +140,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <Modeles />
       <section id="commencer" className="quote">
         <DevOpsLoop className="watermark" watermark />
         <div className="container">
